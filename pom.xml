@@ -7,14 +7,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<!-- Dependency for Cucumber libraries -
+		https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>7.17.0</version>
 		</dependency>
 
-		<!--
+		<!-- Dependency required for getting junit assertions
 		https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
@@ -23,7 +24,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!--
+		<!-- Below two dependencies used for test executions using junit 5
 		https://mvnrepository.com/artifact/io.cucumber/cucumber-junit-platform-engine -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -40,6 +41,16 @@
 			<version>1.11.0-M1</version>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- Dependecy for restAssured libraries - https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>5.4.0</version>
+			<scope>test</scope>
+		</dependency>
+		
+		
 
 
 	</dependencies>
