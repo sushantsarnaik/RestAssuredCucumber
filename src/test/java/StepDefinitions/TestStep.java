@@ -1,8 +1,11 @@
 package StepDefinitions;
 
+import Utilities.RestAssuredBase;
 import io.cucumber.java.en.Given;
 
 public class TestStep {
+	
+	RestAssuredBase base=new RestAssuredBase();
 	
 	@Given("Test one")
 	public void test_one() {
@@ -11,7 +14,7 @@ public class TestStep {
 	
 	@Given("Test two")
 	public void test_two() {
-	    System.out.println("Test two step");
+	    base.loadProperties();
 	}
 
 }

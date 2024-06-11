@@ -15,7 +15,7 @@ import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;;
 @SelectClasspathResource("src/test/java/StepDefinitions")
 @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value="StepDefinitions")
 @ConfigurationParameter(key = FEATURES_PROPERTY_NAME, value="src/test/resources/Features")
-@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME,value = "@Test2")
+@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME,value = "@getListUser1")
 @ConfigurationParameter(key = EXECUTION_DRY_RUN_PROPERTY_NAME,value = "false")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME,value = "pretty, html:target/cucumber-report/cucumber.html")
 
